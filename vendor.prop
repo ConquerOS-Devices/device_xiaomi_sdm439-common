@@ -1,3 +1,7 @@
+# ART
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.image-dex2oat-filter=speed
+
 # Audio
 af.fast_track_multiplier=1
 audio.chk.cal.us=0
@@ -141,7 +145,7 @@ vendor.video.disable.ubwc=1
 ro.vendor.qti.sys.fw.bservice_enable=true
 
 # Perf
-ro.sys.fw.dex2oat_thread_count=8 \
+ro.sys.fw.dex2oat_thread_count=8
 ro.vendor.extension_library=libqti-perfd-client.so
 
 # Network manager daemon
