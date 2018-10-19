@@ -56,6 +56,10 @@ PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant.antradio_library
 
+# Dalvik
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # Device-specific Settings
 PRODUCT_PACKAGES += \
     XiaomiParts
