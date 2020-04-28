@@ -147,6 +147,7 @@ ro.vendor.qti.sys.fw.bservice_enable=true
 # Perf
 ro.sys.fw.dex2oat_thread_count=8
 ro.vendor.extension_library=libqti-perfd-client.so
+ro.vendor.perf.scroll_opt=true
 
 # Netflix
 ro.netflix.bsp_rev=Q660-13149-1
