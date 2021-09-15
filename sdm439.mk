@@ -249,9 +249,10 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 # Perf
+include $(LOCAL_PATH)/perf/qti-perf.mk
+
 PRODUCT_PACKAGES += \
-    libqti-perfd-client \
-    vendor.qti.hardware.perf@2.0.vendor
+    libqti-perfd-client
 
 # Power
 include $(LOCAL_PATH)/power/power-vendor-product.mk
