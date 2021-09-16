@@ -251,9 +251,6 @@ PRODUCT_PACKAGES += \
 # Perf
 include $(LOCAL_PATH)/perf/qti-perf.mk
 
-PRODUCT_PACKAGES += \
-    libqti-perfd-client
-
 # Power
 include $(LOCAL_PATH)/power/power-vendor-product.mk
 
