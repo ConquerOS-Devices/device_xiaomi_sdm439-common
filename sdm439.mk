@@ -314,6 +314,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+QCOM_SOONG_NAMESPACE := \
+    hardware/qcom-caf/msm8996-q
+
 # Servicetracker
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetracker@1.0.vendor \
